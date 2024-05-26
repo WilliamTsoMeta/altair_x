@@ -9,8 +9,8 @@ import Image from "next/image";
 const HeroSlider: React.FC = () => {
   return (
     <>
-      <video autoPlay muted preload="auto" src={"/video/93_1716619701.mp4"} className="w-100 position-absolute top-0"/>
-      <div className="main-slides-area position-relative top-0">
+      <video autoPlay muted preload="auto" src={"/video/93_1716619701.mp4"} className="top-0 w-100 position-absolute"/>
+      <div className="top-0 main-slides-area position-relative">
         <Swiper
           spaceBetween={0}
           effect={"fade"}
@@ -80,12 +80,12 @@ const HeroSlider: React.FC = () => {
                     data-aos-once="true"
                   >
                     <div className="main-slides-image">
-                      <Image
+                      {/* <Image
                         src="/images/home-slides/slides-1.png"
                         alt="image"
                         width={670}
                         height={735}
-                      />
+                      /> */}
                     </div>
                   </div>
                 </div>

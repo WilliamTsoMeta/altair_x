@@ -94,8 +94,7 @@ a {
   color: var(--black-color);
   display: inline-block;
 }
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: var(--main-color);
   text-decoration: none;
 }
@@ -273,14 +272,7 @@ Section Title CSS
   position: relative;
 }
 .section-title h2 b {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -402,7 +394,6 @@ Main Slides Area CSS
 }
 
 .main-slides-item {
-  /* background-color: var(--black-color); */
   padding-top: 150px;
   padding-bottom: 100px;
 }
@@ -447,17 +438,8 @@ Main Slides Area CSS
   transition: var(--transition);
   opacity: 1;
 }
-.home-slides
-  .swiper-pagination
-  .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+.home-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   width: 20px;
   border-radius: 30px;
 }
@@ -577,11 +559,7 @@ Main Hero Area CSS
   z-index: 1;
 }
 .main-hero-item::before {
-  background-image: linear-gradient(
-    to left,
-    rgba(20, 4, 44, 0),
-    rgb(20, 4, 44)
-  );
+  background-image: linear-gradient(to left, rgba(20, 4, 44, 0), rgb(20, 4, 44));
   position: absolute;
   content: "";
   left: 0;
@@ -631,8 +609,7 @@ Main Hero Area CSS
   margin-top: 30px;
 }
 
-.hero-slides .swiper-button-next:after,
-.hero-slides .swiper-button-prev:after {
+.hero-slides .swiper-button-next:after, .hero-slides .swiper-button-prev:after {
   color: var(--main-color);
 }
 
@@ -876,14 +853,7 @@ About Area CSS
   position: relative;
 }
 .about-content h3 b {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -943,14 +913,7 @@ About Area CSS
   position: relative;
 }
 .about-wrap-content h3 b {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1087,14 +1050,7 @@ Services Area CSS
   color: var(--white-color);
 }
 .services-section-content h3 b {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1197,9 +1153,7 @@ Services Area CSS
   background-color: #d1cfdb;
   transition: var(--transition);
 }
-.services-slides
-  .swiper-pagination
-  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.services-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: var(--btn-gradient-color);
   width: 20px;
   border-radius: 30px;
@@ -1459,14 +1413,7 @@ Video Area CSS
 }
 .video-view-content .video-btn i {
   transition: var(--transition);
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1623,14 +1570,7 @@ Projects Area CSS
   width: 0%;
   height: 0%;
   transition: all 0.5s ease-in-out;
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -1759,25 +1699,11 @@ Projects Area CSS
   margin-right: 0;
 }
 .projects-filter-menu li:hover {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   color: var(--white-color);
 }
 .projects-filter-menu .filter.mixitup-control-active {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   color: var(--white-color);
 }
 
@@ -1795,14 +1721,7 @@ Projects Area CSS
   opacity: 0;
   transition: var(--transition);
   visibility: hidden;
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   border-radius: 20px;
   z-index: 1;
 }
@@ -1943,17 +1862,8 @@ Projects Area CSS
   transition: var(--transition);
   opacity: 1;
 }
-.projects-slides-two
-  .swiper-pagination
-  .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+.projects-slides-two .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   width: 20px;
   border-radius: 30px;
 }
@@ -1977,19 +1887,12 @@ Projects Details Area CSS
 .projects-details-desc .article-projects-with-info .projects-info-image img {
   border-radius: 25px;
 }
-.projects-details-desc
-  .article-projects-with-info
-  .projects-info-image
-  .info-shape {
+.projects-details-desc .article-projects-with-info .projects-info-image .info-shape {
   position: absolute;
   left: -55px;
   bottom: -50px;
 }
-.projects-details-desc
-  .article-projects-with-info
-  .projects-info-image
-  .info-shape
-  img {
+.projects-details-desc .article-projects-with-info .projects-info-image .info-shape img {
   animation-name: rotateme;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -2012,11 +1915,7 @@ Projects Details Area CSS
   line-height: 1.4;
   position: relative;
 }
-.projects-details-desc
-  .article-projects-with-info
-  .projects-info-content
-  h3
-  .overlay {
+.projects-details-desc .article-projects-with-info .projects-info-content h3 .overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -2025,20 +1924,13 @@ Projects Details Area CSS
   height: 100%;
   z-index: 1;
 }
-.projects-details-desc
-  .article-projects-with-info
-  .projects-info-content
-  .info-list {
+.projects-details-desc .article-projects-with-info .projects-info-content .info-list {
   padding: 0;
   margin-top: 25px;
   margin-bottom: 0;
   display: inline-block;
 }
-.projects-details-desc
-  .article-projects-with-info
-  .projects-info-content
-  .info-list
-  li {
+.projects-details-desc .article-projects-with-info .projects-info-content .info-list li {
   font-family: var(--font-jost);
   font-weight: 400;
   color: var(--paragraph-color);
@@ -2050,19 +1942,10 @@ Projects Details Area CSS
   background-color: var(--white-color);
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
 }
-.projects-details-desc
-  .article-projects-with-info
-  .projects-info-content
-  .info-list
-  li:last-child {
+.projects-details-desc .article-projects-with-info .projects-info-content .info-list li:last-child {
   margin-bottom: 0;
 }
-.projects-details-desc
-  .article-projects-with-info
-  .projects-info-content
-  .info-list
-  li
-  span {
+.projects-details-desc .article-projects-with-info .projects-info-content .info-list li span {
   color: var(--optional-color);
   font-weight: 600;
   margin-bottom: 0;
@@ -2221,14 +2104,7 @@ Testimonials Area CSS
   position: relative;
 }
 .testimonials-section-content h3 b {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2338,9 +2214,7 @@ Testimonials Area CSS
   transition: var(--transition);
   opacity: 1;
 }
-.testimonials-slides
-  .swiper-pagination
-  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.testimonials-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: var(--btn-gradient-color);
   width: 20px;
   border-radius: 30px;
@@ -2385,14 +2259,7 @@ Pricing Area CSS
   position: relative;
 }
 .single-pricing-card h3 {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 20px;
@@ -2465,14 +2332,7 @@ Pricing Area CSS
 }
 .single-pricing-card .most-popular span {
   display: inline-block;
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   padding: 10px 20px;
   border-radius: 15px;
   color: var(--white-color);
@@ -2590,14 +2450,7 @@ Blog Area CSS
   filter: blur(2px);
 }
 .blog-card:hover .blog-content .date {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   color: var(--white-color);
 }
 .blog-card:hover .blog-content h3 a {
@@ -2621,17 +2474,8 @@ Blog Area CSS
   transition: var(--transition);
   opacity: 1;
 }
-.blog-slides
-  .swiper-pagination
-  .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+.blog-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   width: 20px;
   border-radius: 30px;
 }
@@ -2761,8 +2605,7 @@ Blog Area CSS
   font-size: 25px;
   line-height: 0;
 }
-.blog-grid-sorting form button:hover,
-.blog-grid-sorting form button:focus {
+.blog-grid-sorting form button:hover, .blog-grid-sorting form button:focus {
   color: var(--main-color);
 }
 
@@ -2782,14 +2625,7 @@ Blog Area CSS
   transition: var(--transition);
 }
 .single-blog-card .blog-image .date {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
@@ -2895,14 +2731,7 @@ Blog Details Area CSS
 }
 .blog-details-desc .article-image .video-btn i {
   transition: var(--transition);
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3085,14 +2914,7 @@ Blog Details Area CSS
 }
 .blog-details-desc .article-share .share-social li a i:hover {
   color: var(--white-color);
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
 }
 .blog-details-desc .article-comments {
   margin-top: 35px;
@@ -3170,33 +2992,21 @@ Blog Details Area CSS
   outline: 0;
   font-family: var(--font-jost);
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-group
-  .form-control::-moz-placeholder {
+.blog-details-desc .article-leave-comment .form-group .form-control::-moz-placeholder {
   color: #9b8dac;
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-group
-  .form-control::placeholder {
+.blog-details-desc .article-leave-comment .form-group .form-control::placeholder {
   color: #9b8dac;
 }
 .blog-details-desc .article-leave-comment .form-group .form-control:focus {
   border: 1px solid var(--main-color);
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-group
-  .form-control:focus::-moz-placeholder {
+.blog-details-desc .article-leave-comment .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
   -moz-transition: var(--transition);
   transition: var(--transition);
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-group
-  .form-control:focus::placeholder {
+.blog-details-desc .article-leave-comment .form-group .form-control:focus::placeholder {
   color: transparent;
   transition: var(--transition);
 }
@@ -3212,26 +3022,12 @@ Blog Details Area CSS
 .blog-details-desc .article-leave-comment .form-cookies-consent a:hover {
   color: var(--optional-color);
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:checked,
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:not(:checked) {
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:checked,
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:not(:checked) {
   display: none;
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:checked
-  + label,
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:not(:checked)
-  + label {
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:checked + label,
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:not(:checked) + label {
   position: relative;
   padding-left: 25px;
   cursor: pointer;
@@ -3241,16 +3037,8 @@ Blog Details Area CSS
   font-weight: 400;
   font-size: 15px;
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:checked
-  + label:before,
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:not(:checked)
-  + label:before {
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:checked + label:before,
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:not(:checked) + label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -3262,16 +3050,8 @@ Blog Details Area CSS
   border-radius: 5px;
   background: var(--white-color);
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:checked
-  + label:after,
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:not(:checked)
-  + label:after {
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:checked + label:after,
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:not(:checked) + label:after {
   content: "";
   width: 5px;
   height: 5px;
@@ -3282,34 +3062,18 @@ Blog Details Area CSS
   transition: all 0.2s ease;
   border-radius: 30px;
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:not(:checked)
-  + label:after {
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:not(:checked) + label:after {
   opacity: 0;
   transform: scale(0);
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:checked
-  + label:after {
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:checked + label:after {
   opacity: 1;
   transform: scale(1);
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:hover
-  + label:before {
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:hover + label:before {
   border-color: var(--main-color);
 }
-.blog-details-desc
-  .article-leave-comment
-  .form-cookies-consent
-  [type="checkbox"]:checked
-  + label:before {
+.blog-details-desc .article-leave-comment .form-cookies-consent [type=checkbox]:checked + label:before {
   border-color: var(--main-color);
 }
 .blog-details-desc .article-leave-comment .form-cookies-consent p {
@@ -3382,10 +3146,10 @@ Skill Area CSS
   background-color: #3e019a;
 }
 .skill-bar .border-D5158F {
-  border: 1px solid #d5158f;
+  border: 1px solid #D5158F;
 }
 .skill-bar .bg-D5158F {
-  background-color: #d5158f;
+  background-color: #D5158F;
 }
 .skill-bar .border-feb302 {
   border: 1px solid #feb302;
@@ -3394,10 +3158,10 @@ Skill Area CSS
   background-color: #feb302;
 }
 .skill-bar .border-A66BFF {
-  border: 1px solid #a66bff;
+  border: 1px solid #A66BFF;
 }
 .skill-bar .bg-A66BFF {
-  background-color: #a66bff;
+  background-color: #A66BFF;
 }
 
 .skill-bar-btn {
@@ -3467,14 +3231,7 @@ Features Area CSS
   width: 0%;
   height: 0%;
   transition: all 0.5s ease-in-out;
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -3628,14 +3385,7 @@ Talk Area CSS
   position: relative;
 }
 .talk-content h3 b {
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4013,14 +3763,7 @@ Events Area CSS
 }
 .coze-grid-sorting .result-count p .count {
   font-weight: 600;
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4492,12 +4235,7 @@ Apply Area CSS
   padding-right: 25px;
   font-weight: 400;
 }
-.apply-form-wrap
-  .apply-form
-  .form-group
-  .nice-select
-  .list
-  .option.selected.focus {
+.apply-form-wrap .apply-form .form-group .nice-select .list .option.selected.focus {
   color: var(--main-color);
   background-color: var(--white-color);
 }
@@ -4601,14 +4339,7 @@ Career Details Area CSS
 }
 .career-details-desc .career-details-image .video-btn i {
   transition: var(--transition);
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -5441,8 +5172,7 @@ Courses Details Area CSS
   font-weight: bold;
   color: var(--black-color);
 }
-.courses-details-desc .nav .nav-item .nav-link:hover,
-.courses-details-desc .nav .nav-item .nav-link.active {
+.courses-details-desc .nav .nav-item .nav-link:hover, .courses-details-desc .nav .nav-item .nav-link.active {
   color: var(--white-color);
   background-color: var(--main-color);
 }
@@ -5497,26 +5227,13 @@ Courses Details Area CSS
   color: var(--paragraph-color);
   transition: var(--transition);
 }
-.courses-details-desc
-  .tab-content
-  .courses-curriculum
-  ul
-  li
-  a
-  .courses-name:hover {
+.courses-details-desc .tab-content .courses-curriculum ul li a .courses-name:hover {
   color: var(--main-color);
 }
 .courses-details-desc .tab-content .courses-curriculum ul li a .courses-meta {
   text-align: right;
 }
-.courses-details-desc
-  .tab-content
-  .courses-curriculum
-  ul
-  li
-  a
-  .courses-meta
-  .questions {
+.courses-details-desc .tab-content .courses-curriculum ul li a .courses-meta .questions {
   display: inline-block;
   background: var(--main-color);
   color: var(--white-color);
@@ -5527,25 +5244,11 @@ Courses Details Area CSS
   font-weight: 500;
   transition: var(--transition);
 }
-.courses-details-desc
-  .tab-content
-  .courses-curriculum
-  ul
-  li
-  a
-  .courses-meta
-  .questions:hover {
+.courses-details-desc .tab-content .courses-curriculum ul li a .courses-meta .questions:hover {
   background-color: var(--optional-color);
   color: var(--white-color);
 }
-.courses-details-desc
-  .tab-content
-  .courses-curriculum
-  ul
-  li
-  a
-  .courses-meta
-  .duration {
+.courses-details-desc .tab-content .courses-curriculum ul li a .courses-meta .duration {
   display: inline-block;
   background: var(--optional-color);
   color: var(--white-color);
@@ -5555,25 +5258,11 @@ Courses Details Area CSS
   font-weight: 500;
   transition: var(--transition);
 }
-.courses-details-desc
-  .tab-content
-  .courses-curriculum
-  ul
-  li
-  a
-  .courses-meta
-  .duration:hover {
+.courses-details-desc .tab-content .courses-curriculum ul li a .courses-meta .duration:hover {
   background-color: var(--main-color);
   color: var(--white-color);
 }
-.courses-details-desc
-  .tab-content
-  .courses-curriculum
-  ul
-  li
-  a
-  .courses-meta
-  .status {
+.courses-details-desc .tab-content .courses-curriculum ul li a .courses-meta .status {
   display: inline-block;
   background: var(--black-color);
   color: var(--white-color);
@@ -5584,25 +5273,11 @@ Courses Details Area CSS
   font-weight: 500;
   transition: var(--transition);
 }
-.courses-details-desc
-  .tab-content
-  .courses-curriculum
-  ul
-  li
-  a
-  .courses-meta
-  .status:hover {
+.courses-details-desc .tab-content .courses-curriculum ul li a .courses-meta .status:hover {
   background-color: var(--main-color);
   color: var(--white-color);
 }
-.courses-details-desc
-  .tab-content
-  .courses-curriculum
-  ul
-  li
-  a
-  .courses-meta
-  .status.locked {
+.courses-details-desc .tab-content .courses-curriculum ul li a .courses-meta .status.locked {
   color: var(--black-color);
   background-color: transparent;
   padding: 0;
@@ -5614,14 +5289,7 @@ Courses Details Area CSS
   font-weight: normal;
   transition: var(--transition);
 }
-.courses-details-desc
-  .tab-content
-  .courses-curriculum
-  ul
-  li
-  a
-  .courses-meta
-  .status.locked:hover {
+.courses-details-desc .tab-content .courses-curriculum ul li a .courses-meta .status.locked:hover {
   color: var(--main-color);
 }
 .courses-details-desc .tab-content .courses-curriculum ul li a:hover {
@@ -5638,11 +5306,7 @@ Courses Details Area CSS
   margin-bottom: 18px;
   font-weight: bold;
 }
-.courses-details-desc
-  .tab-content
-  .courses-instructor
-  .instructor-content
-  span {
+.courses-details-desc .tab-content .courses-instructor .instructor-content span {
   font-weight: 500;
   color: var(--main-color);
   display: inline-block;
@@ -5652,41 +5316,20 @@ Courses Details Area CSS
 .courses-details-desc .tab-content .courses-instructor .instructor-content p {
   margin-bottom: 20px;
 }
-.courses-details-desc
-  .tab-content
-  .courses-instructor
-  .instructor-content
-  .social-link {
+.courses-details-desc .tab-content .courses-instructor .instructor-content .social-link {
   padding-left: 0;
   margin-bottom: 0;
   margin-top: 25px;
 }
-.courses-details-desc
-  .tab-content
-  .courses-instructor
-  .instructor-content
-  .social-link
-  li {
+.courses-details-desc .tab-content .courses-instructor .instructor-content .social-link li {
   list-style-type: none;
   display: inline-block;
   margin-right: 8px;
 }
-.courses-details-desc
-  .tab-content
-  .courses-instructor
-  .instructor-content
-  .social-link
-  li:last-child {
+.courses-details-desc .tab-content .courses-instructor .instructor-content .social-link li:last-child {
   margin-right: 0;
 }
-.courses-details-desc
-  .tab-content
-  .courses-instructor
-  .instructor-content
-  .social-link
-  li
-  a
-  i {
+.courses-details-desc .tab-content .courses-instructor .instructor-content .social-link li a i {
   display: inline-block;
   width: 38px;
   height: 38px;
@@ -5698,14 +5341,7 @@ Courses Details Area CSS
   border-radius: 50px;
   font-size: 18px;
 }
-.courses-details-desc
-  .tab-content
-  .courses-instructor
-  .instructor-content
-  .social-link
-  li
-  a
-  i:hover {
+.courses-details-desc .tab-content .courses-instructor .instructor-content .social-link li a i:hover {
   transform: translateY(-5px);
 }
 .courses-details-desc .tab-content .courses-reviews h3 {
@@ -5816,11 +5452,7 @@ Courses Details Area CSS
   height: 90px;
   border-radius: 20px;
 }
-.courses-details-desc
-  .tab-content
-  .courses-review-comments
-  .user-review
-  .sub-comment {
+.courses-details-desc .tab-content .courses-review-comments .user-review .sub-comment {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 15px;
@@ -5829,49 +5461,23 @@ Courses Details Area CSS
 .courses-details-desc .tab-content .courses-review-comments .user-review p {
   font-size: 15px;
 }
-.courses-details-desc
-  .tab-content
-  .courses-review-comments
-  .user-review
-  .review-rating {
+.courses-details-desc .tab-content .courses-review-comments .user-review .review-rating {
   display: block;
   margin-bottom: 8px;
 }
-.courses-details-desc
-  .tab-content
-  .courses-review-comments
-  .user-review
-  .review-rating
-  .review-stars {
+.courses-details-desc .tab-content .courses-review-comments .user-review .review-rating .review-stars {
   display: inline-block;
 }
-.courses-details-desc
-  .tab-content
-  .courses-review-comments
-  .user-review
-  .review-rating
-  .review-stars
-  i {
+.courses-details-desc .tab-content .courses-review-comments .user-review .review-rating .review-stars i {
   color: #cecfd2;
   font-size: 15px;
   display: inline-block;
   margin-right: -2px;
 }
-.courses-details-desc
-  .tab-content
-  .courses-review-comments
-  .user-review
-  .review-rating
-  .review-stars
-  i.checked {
+.courses-details-desc .tab-content .courses-review-comments .user-review .review-rating .review-stars i.checked {
   color: orange;
 }
-.courses-details-desc
-  .tab-content
-  .courses-review-comments
-  .user-review
-  .review-rating
-  span {
+.courses-details-desc .tab-content .courses-review-comments .user-review .review-rating span {
   color: var(--black-color);
   position: relative;
   top: -2px;
@@ -6135,8 +5741,7 @@ Products Area CSS
   font-size: 25px;
   line-height: 0;
 }
-.products-grid-sorting .ordering form button:hover,
-.products-grid-sorting .ordering form button:focus {
+.products-grid-sorting .ordering form button:hover, .products-grid-sorting .ordering form button:focus {
   color: var(--main-color);
 }
 
@@ -6159,14 +5764,7 @@ Products Area CSS
   opacity: 0;
   transition: var(--transition);
   visibility: hidden;
-  background: radial-gradient(
-    circle,
-    #fb64bf,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #fb64bf, #c666ef, #dd62df, #ee61cf, #fb64bf);
   border-radius: 15px;
   z-index: 1;
 }
@@ -6392,22 +5990,10 @@ Cart Area CSS
   position: relative;
   top: -4px;
 }
-.cart-table
-  table
-  tbody
-  tr
-  td.product-quantity
-  .input-counter
-  input::-moz-placeholder {
+.cart-table table tbody tr td.product-quantity .input-counter input::-moz-placeholder {
   color: var(--optional-color);
 }
-.cart-table
-  table
-  tbody
-  tr
-  td.product-quantity
-  .input-counter
-  input::placeholder {
+.cart-table table tbody tr td.product-quantity .input-counter input::placeholder {
   color: var(--optional-color);
 }
 .cart-table table tbody:not(:first-child) {
@@ -6759,16 +6345,12 @@ Checkout Area CSS
 .order-details .order-table table tbody tr td.product-name a:hover {
   color: var(--main-color);
 }
-.order-details .order-table table tbody tr td.order-subtotal span,
-.order-details .order-table table tbody tr td.order-shipping span,
-.order-details .order-table table tbody tr td.total-price span {
+.order-details .order-table table tbody tr td.order-subtotal span, .order-details .order-table table tbody tr td.order-shipping span, .order-details .order-table table tbody tr td.total-price span {
   color: var(--paragraph-color);
   font-weight: 500;
   font-size: var(--font-size);
 }
-.order-details .order-table table tbody tr td.shipping-price,
-.order-details .order-table table tbody tr td.order-subtotal-price,
-.order-details .order-table table tbody tr td.product-subtotal {
+.order-details .order-table table tbody tr td.shipping-price, .order-details .order-table table tbody tr td.order-subtotal-price, .order-details .order-table table tbody tr td.product-subtotal {
   color: var(--paragraph-color);
   font-weight: 500;
   font-size: var(--font-size);
@@ -6785,17 +6367,10 @@ Checkout Area CSS
 .order-details .payment-box .payment-method p {
   font-size: 15px;
 }
-.order-details .payment-box .payment-method p [type="radio"]:checked,
-.order-details .payment-box .payment-method p [type="radio"]:not(:checked) {
+.order-details .payment-box .payment-method p [type=radio]:checked, .order-details .payment-box .payment-method p [type=radio]:not(:checked) {
   display: none;
 }
-.order-details .payment-box .payment-method p [type="radio"]:checked + label,
-.order-details
-  .payment-box
-  .payment-method
-  p
-  [type="radio"]:not(:checked)
-  + label {
+.order-details .payment-box .payment-method p [type=radio]:checked + label, .order-details .payment-box .payment-method p [type=radio]:not(:checked) + label {
   padding-left: 25.8px;
   cursor: pointer;
   display: block;
@@ -6806,18 +6381,7 @@ Checkout Area CSS
   font-size: var(--font-size);
   font-family: var(--font-jost);
 }
-.order-details
-  .payment-box
-  .payment-method
-  p
-  [type="radio"]:checked
-  + label::before,
-.order-details
-  .payment-box
-  .payment-method
-  p
-  [type="radio"]:not(:checked)
-  + label::before {
+.order-details .payment-box .payment-method p [type=radio]:checked + label::before, .order-details .payment-box .payment-method p [type=radio]:not(:checked) + label::before {
   content: "";
   position: absolute;
   left: 0;
@@ -6828,18 +6392,7 @@ Checkout Area CSS
   border-radius: 50%;
   background: var(--white-color);
 }
-.order-details
-  .payment-box
-  .payment-method
-  p
-  [type="radio"]:checked
-  + label::after,
-.order-details
-  .payment-box
-  .payment-method
-  p
-  [type="radio"]:not(:checked)
-  + label::after {
+.order-details .payment-box .payment-method p [type=radio]:checked + label::after, .order-details .payment-box .payment-method p [type=radio]:not(:checked) + label::after {
   content: "";
   width: 12px;
   height: 12px;
@@ -6850,22 +6403,12 @@ Checkout Area CSS
   border-radius: 50%;
   transition: var(--transition);
 }
-.order-details
-  .payment-box
-  .payment-method
-  p
-  [type="radio"]:not(:checked)
-  + label::after {
+.order-details .payment-box .payment-method p [type=radio]:not(:checked) + label::after {
   opacity: 0;
   visibility: hidden;
   transform: scale(0);
 }
-.order-details
-  .payment-box
-  .payment-method
-  p
-  [type="radio"]:checked
-  + label::after {
+.order-details .payment-box .payment-method p [type=radio]:checked + label::after {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
@@ -7003,8 +6546,7 @@ Products Details Area CSS
   display: inline-block;
   color: var(--paragraph-color);
 }
-.products-details-desc .products-meta span a:hover,
-.products-details-desc .products-meta span a:focus {
+.products-details-desc .products-meta span a:hover, .products-details-desc .products-meta span a:focus {
   color: var(--main-color);
 }
 .products-details-desc .products-add-to-cart {
@@ -7048,10 +6590,7 @@ Products Details Area CSS
   position: relative;
   top: -4px;
 }
-.products-details-desc
-  .products-add-to-cart
-  .input-counter
-  input::-moz-placeholder {
+.products-details-desc .products-add-to-cart .input-counter input::-moz-placeholder {
   color: var(--optional-color);
 }
 .products-details-desc .products-add-to-cart .input-counter input::placeholder {
@@ -7094,17 +6633,9 @@ Products Details Area CSS
   background-color: #f2f1f3;
   color: var(--black-color);
 }
-.products-details-tabs .nav .nav-item .nav-link:hover,
-.products-details-tabs .nav .nav-item .nav-link.active {
+.products-details-tabs .nav .nav-item .nav-link:hover, .products-details-tabs .nav .nav-item .nav-link.active {
   color: var(--white-color);
-  background: radial-gradient(
-    circle,
-    #a66bff,
-    #c666ef,
-    #dd62df,
-    #ee61cf,
-    #fb64bf
-  );
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
 }
 .products-details-tabs .tab-content .tab-pane {
   padding: 30px;
@@ -7124,24 +6655,14 @@ Products Details Area CSS
   font-size: var(--font-size);
   color: #cecfd2;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-reviews
-  .rating
-  span.checked {
+.products-details-tabs .tab-content .tab-pane .products-reviews .rating span.checked {
   color: orange;
 }
 .products-details-tabs .tab-content .tab-pane .products-reviews .rating-count {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-reviews
-  .rating-count
-  span {
+.products-details-tabs .tab-content .tab-pane .products-reviews .rating-count span {
   display: block;
   font-size: 15px;
   color: var(--paragraph-color);
@@ -7219,21 +6740,12 @@ Products Details Area CSS
   font-size: 20px;
   font-weight: bold;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-review-comments
-  .user-review {
+.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review {
   border-bottom: 1px solid var(--white-color);
   padding: 20px 0 20px 110px;
   position: relative;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-review-comments
-  .user-review
-  img {
+.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review img {
   position: absolute;
   left: 0;
   top: 20px;
@@ -7241,73 +6753,32 @@ Products Details Area CSS
   height: 90px;
   border-radius: 20px;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-review-comments
-  .user-review
-  .sub-comment {
+.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .sub-comment {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 15px;
   color: var(--main-color);
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-review-comments
-  .user-review
-  p {
+.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review p {
   font-size: 15px;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-review-comments
-  .user-review
-  .review-rating {
+.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating {
   display: block;
   margin-bottom: 8px;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-review-comments
-  .user-review
-  .review-rating
-  .review-stars {
+.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating .review-stars {
   display: inline-block;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-review-comments
-  .user-review
-  .review-rating
-  .review-stars
-  i {
+.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating .review-stars i {
   color: #cecfd2;
   font-size: 15px;
   display: inline-block;
   margin-right: -2px;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-review-comments
-  .user-review
-  .review-rating
-  .review-stars
-  i.checked {
+.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating .review-stars i.checked {
   color: orange;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .products-review-comments
-  .user-review
-  .review-rating
-  span {
+.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating span {
   color: var(--black-color);
   position: relative;
   top: -2px;
@@ -7324,33 +6795,17 @@ Products Details Area CSS
   color: var(--black-color);
   font-weight: bold;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  .comment-notes
-  span {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper .comment-notes span {
   color: red;
 }
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form {
   margin-top: 20px;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .form-group {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group {
   margin-bottom: 25px;
   text-align: start;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .form-group
-  .form-control {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group .form-control {
   height: 55px;
   padding: 15px 20px;
   line-height: initial;
@@ -7362,160 +6817,62 @@ Products Details Area CSS
   font-size: 15px;
   font-weight: 400;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .form-group
-  .form-control::-moz-placeholder {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group .form-control::-moz-placeholder {
   color: var(--paragraph-color);
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .form-group
-  .form-control::placeholder {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group .form-control::placeholder {
   color: var(--paragraph-color);
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .form-group
-  .form-control:focus {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group .form-control:focus {
   border: 1px solid var(--main-color);
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .form-group
-  .form-control:focus::-moz-placeholder {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
   -moz-transition: var(--transition);
   transition: var(--transition);
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .form-group
-  .form-control:focus::placeholder {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group .form-control:focus::placeholder {
   color: transparent;
   transition: var(--transition);
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .form-group
-  textarea.form-control {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group textarea.form-control {
   min-height: 115px;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .rating {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating {
   text-align: left;
   overflow: hidden;
   max-width: 115px;
   margin-top: -5px;
   margin-bottom: 30px;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .rating
-  label {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating label {
   float: right;
   position: relative;
   width: 23px;
   height: 23px;
   cursor: pointer;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .rating
-  label:not(:first-of-type) {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating label:not(:first-of-type) {
   padding-right: 5px;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .rating
-  label:before {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating label:before {
   content: "★";
   transition: var(--transition);
   font-size: 27px;
   color: var(--paragraph-color);
   line-height: 1;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .rating
-  input {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating input {
   display: none;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .rating
-  input:checked
-  ~ label:before,
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .rating:not(:checked)
-  > label:hover:before,
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .rating:not(:checked)
-  > label:hover
-  ~ label:before {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating input:checked ~ label:before, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating:not(:checked) > label:hover:before, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating:not(:checked) > label:hover ~ label:before {
   color: #f6b500;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .comment-form-cookies-consent
-  input {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent input {
   margin-right: 5px;
   position: relative;
 }
-.products-details-tabs
-  .tab-content
-  .tab-pane
-  .review-form-wrapper
-  form
-  .default-btn {
+.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .default-btn {
   margin-top: 22px;
   border: none;
   padding: 15px 30px;
@@ -7603,8 +6960,7 @@ Widget Sidebar CSS
   font-size: 25px;
   line-height: 0;
 }
-.widget-area .widget_search form button:hover,
-.widget-area .widget_search form button:focus {
+.widget-area .widget_search form button:hover, .widget-area .widget_search form button:focus {
   color: var(--main-color);
 }
 .widget-area .widget_categories .list {
@@ -7662,8 +7018,7 @@ Widget Sidebar CSS
   background-repeat: no-repeat;
   background-position: center center !important;
 }
-.widget-area .widget_recent_post .item .thumb::before,
-.widget-area .widget_recent_post .item .thumb::after {
+.widget-area .widget_recent_post .item .thumb::before, .widget-area .widget_recent_post .item .thumb::after {
   transition: all 0.8s cubic-bezier(0.2, 1, 0.22, 1);
   content: "";
   background-color: var(--white-color);
@@ -7705,8 +7060,7 @@ Widget Sidebar CSS
 .widget-area .widget_recent_post .item .info .title a {
   display: inline-block;
 }
-.widget-area .widget_recent_post .item:hover .thumb::before,
-.widget-area .widget_recent_post .item:hover .thumb::after {
+.widget-area .widget_recent_post .item:hover .thumb::before, .widget-area .widget_recent_post .item:hover .thumb::after {
   opacity: 1;
   top: 50%;
   left: 50%;
@@ -7726,8 +7080,7 @@ Widget Sidebar CSS
   margin-top: 8px;
   margin-right: 5px;
 }
-.widget-area .tagcloud a:hover,
-.widget-area .tagcloud a:focus {
+.widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
   color: var(--white-color);
   background-color: var(--main-color);
 }
@@ -7765,8 +7118,7 @@ Widget Sidebar CSS
   background-repeat: no-repeat;
   background-position: center center !important;
 }
-.widget-area .widget_recent_courses .item .thumb::before,
-.widget-area .widget_recent_courses .item .thumb::after {
+.widget-area .widget_recent_courses .item .thumb::before, .widget-area .widget_recent_courses .item .thumb::after {
   transition: all 0.8s cubic-bezier(0.2, 1, 0.22, 1);
   content: "";
   background-color: var(--white-color);
@@ -7807,8 +7159,7 @@ Widget Sidebar CSS
 .widget-area .widget_recent_courses .item .info .title a {
   display: inline-block;
 }
-.widget-area .widget_recent_courses .item:hover .thumb::before,
-.widget-area .widget_recent_courses .item:hover .thumb::after {
+.widget-area .widget_recent_courses .item:hover .thumb::before, .widget-area .widget_recent_courses .item:hover .thumb::after {
   opacity: 1;
   top: 50%;
   left: 50%;
@@ -7849,14 +7200,12 @@ Widget Sidebar CSS
   transform: translateY(-50%);
   border-radius: 50%;
 }
-.widget-area .widget_insight .list li a:hover,
-.widget-area .widget_insight .list li a.active {
+.widget-area .widget_insight .list li a:hover, .widget-area .widget_insight .list li a.active {
   border-color: var(--main-color);
   background-color: var(--main-color);
   color: var(--white-color);
 }
-.widget-area .widget_insight .list li a:hover::before,
-.widget-area .widget_insight .list li a.active::before {
+.widget-area .widget_insight .list li a:hover::before, .widget-area .widget_insight .list li a.active::before {
   background-color: var(--white-color);
 }
 .widget-area .widget_insight .list li.active a {
@@ -7891,8 +7240,7 @@ Pagination CSS
   font-weight: bold;
   font-family: var(--font-jost);
 }
-.pagination-area .page-numbers:hover,
-.pagination-area .page-numbers.current {
+.pagination-area .page-numbers:hover, .pagination-area .page-numbers.current {
   color: var(--white-color);
   background-color: var(--main-color);
   border: 2px solid var(--main-color);
@@ -7980,12 +7328,7 @@ Pagination CSS
   width: 100%;
   top: -50%;
   left: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0) 0%,
-    #ffffff 75%,
-    #ffffff 100%
-  );
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
   animation: run 15s 0s infinite;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
@@ -8051,19 +7394,13 @@ Buy Now Btn
   0% {
     transform: scale3d(1, 1, 1);
   }
-  10%,
-  20% {
+  10%, 20% {
     transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
   }
-  30%,
-  50%,
-  70%,
-  90% {
+  30%, 50%, 70%, 90% {
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
   }
-  40%,
-  60%,
-  80% {
+  40%, 60%, 80% {
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
   }
   100% {
@@ -8095,8 +7432,4 @@ Buy Now Btn
 .social-links li a i:hover {
   background-color: var(--main-color);
   color: #fff;
-} /*# sourceMappingURL=globals.css.map */
-
-/* @tailwind base; */
-/* @tailwind components; */
-/* @tailwind utilities; */
+}/*# sourceMappingURL=globals.css.map */
